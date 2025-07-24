@@ -1,0 +1,81 @@
+"""
+USER MANAGEMENT:
+ registration
+ login/logout
+ password hashing
+ email verification
+ password reset
+ user role
+
+ 
+PRODUCT MANAGEMENT
+  Create/ update/ delete product(admin)
+  list all product
+  search/filter product (by name, category, price, etc)
+  get product details 
+  manage product images(upload, delete)
+
+
+INVENTORY MANAGEMENT
+ Track product stock levels
+ Prevent orders when stock is insufficient
+ Automatically update stock purchase
+
+SHOPPING CART
+ adding items to cart
+ update quantity
+ remove item ffrom cart
+ view cart contents
+ cart persistence(seesion based or db based)
+
+CHECKOUT & ORDERS
+ create order from cart
+ calculate total with tax, shipping
+ store order history
+ order status: pending, paid, shipped, delivered, cancelled
+
+PAYMENT INTEGRATION
+ integrate with payment gateway (e.g paystack)
+ webhook support (optional)
+ handle payment success/failure
+ store payment reference
+
+SHIPPING/DELIVERY
+ collect delivery adddress
+ estimate delivery date
+ track shipping status
+ assign delivery partners
+
+ADMIN PANEL FEATURES
+ dashboard stats
+ manage product/categories
+ view and update order status
+
+ REVIEW & SETTINGS
+  add product review
+  rate products
+  prevent duplicate reviews / rating by the same user
+
+
+CATEGORIES AND TAGS
+ organize products by categories
+ filter / search tags or categories
+
+EMAIL NOTIFICATION
+ order confirmation email
+ payment sucess/failure mail
+ password reset instruction
+
+SECURITY
+ JWT token authentication
+ password hashing (passlib (bcrypt))
+ rate limiting (optional)
+ CORS setup(wildcart)
+
+OTHERS 
+ whishlist/ save for later
+ coupons/ discounts
+ downlaod invoice/reciept
+ contact support endpoint
+ privacy setting    
+"""
