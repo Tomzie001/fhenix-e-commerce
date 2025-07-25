@@ -17,6 +17,8 @@ def registration(user_details:UserCreationVal, session:dbconn):
 def login(login_details: loginVal, session:dbconn):
    user= loginUser(session, login_details)
    return user
+
+
 # forgot password
 @router.post("/account/forget-password")
 def login(user_email: forgetpwdVal, session:dbconn):
